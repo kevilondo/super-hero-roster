@@ -1,0 +1,104 @@
+* {
+    background-color: #282c34;
+    color: white;
+}
+
+
+
+.App-container {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.text-logo {
+    color: rgba(203, 203, 218, 0.836);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+i {
+    background-color: transparent;
+    color: white;
+}
+
+#hero_name {
+    width: 80%;
+}
+
+button {
+    width: 60px;
+    background-color: rgb(9, 83, 133) !important;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 10px 10px;
+    margin-top: 10px;
+}
+
+.attribute {
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.stats {
+    padding-top: 50px;
+}
+
+.attribute-value {
+    margin-left:auto;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.attribute-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-left: -70px;
+}
+
+.biography {
+    padding: 20px 10px 10px 10px;
+    margin-top: 80px;
+    border: 1px solid rgb(9, 83, 133);
+    border-radius: 25px;
+    background: rgb(9, 83, 133, 0.1);
+}
+
+.biography .container, h3, p, span {
+    background-color: transparent;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.attribute-bio {
+    color:  rgba(203, 203, 218, 0.836);
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.footer {
+    margin-top: 100px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(9, 83, 133, 0.1);
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+  }
